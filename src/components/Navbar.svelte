@@ -7,7 +7,12 @@
         name: string;
         path: string;
     };
-    let pages: Page[] = [];
+    let pages: Page[] = [
+        {
+            name: 'Home',
+            path: '/',
+        },
+    ];
 </script>
 
 <svelte:head>
