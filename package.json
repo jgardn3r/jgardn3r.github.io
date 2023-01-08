@@ -2,7 +2,10 @@
     "name": "jgardner.it",
     "version": "0.0.1",
     "private": true,
+    "homepage": "https://jgardner.it",
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "bash -c \"touch build/.nojekyll && echo jgardner.it > build/CNAME && gh-pages -d build -t true -b production -m 'Updated %DATE% %TIME%'\"",
         "dev": "vite dev",
         "build": "vite build",
         "preview": "vite preview",
@@ -21,6 +24,7 @@
         "eslint": "^8.28.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-svelte3": "^4.0.0",
+        "gh-pages": "^4.0.0",
         "prettier": "^2.8.0",
         "prettier-plugin-svelte": "^2.8.1",
         "svelte": "^3.54.0",
