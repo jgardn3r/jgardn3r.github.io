@@ -12,6 +12,10 @@
             name: 'Home',
             path: '/',
         },
+        {
+            name: 'Résumé',
+            path: 'resume',
+        },
     ];
 </script>
 
