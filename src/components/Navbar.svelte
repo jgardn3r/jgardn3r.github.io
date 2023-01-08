@@ -16,6 +16,10 @@
             name: 'Résumé',
             path: 'resume',
         },
+        {
+            name: 'Contact',
+            path: 'mailto:joshgardner2000@gmail.com',
+        },
     ];
 </script>
 
