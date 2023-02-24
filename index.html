@@ -5,17 +5,18 @@
         <link rel="icon" href="./favicon.png" />
         <meta name="viewport" content="width=device-width" />
         <meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page-3819b188.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/Navbar-865cc33e.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-08c4670e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-ecd388f0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-040742f0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
-		<link rel="modulepreload" href="./_app/immutable/components/layout.svelte-8caa0652.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-55770e65.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-025914ab.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-43e96a1f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Navbar-3a68137d.js"><title>Home | Joshua
+		<link href="./_app/immutable/assets/_page.3819b188.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Navbar.865cc33e.css" rel="stylesheet">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/start.e8590aef.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.6894c2f8.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/singletons.946ca2b7.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/app.72673d61.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/preload-helper.41c905a7.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/layout.svelte.d4de6d00.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_layout.ts.cc3ff41a.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/_layout.025914ab.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_page.svelte.c6a674eb.mjs">
+		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/Navbar.a222c39b.mjs"><title>Home | Joshua
         Gardner</title><!-- HEAD_svelte-j5t8du_START --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- HEAD_svelte-j5t8du_END -->
     </head>
     <body data-sveltekit-preload-data="hover">
@@ -48,21 +49,30 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1ue0hq7">
-			import { start } from "./_app/immutable/start-08c4670e.js";
+			
+			<script>
+				{
+					__sveltekit_1uvgyew = {
+						env: {},
+						assets: new URL(".", location.href).pathname.replace(/^\/$/, ''),
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1ue0hq7"]').parentNode,
-				version: "1675235889272",
-				hydrate: {
-					node_ids: [0, 2],
-					data: [null,null],
-					form: null
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.e8590aef.mjs"),
+						import("./_app/immutable/entry/app.72673d61.mjs")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1uvgyew.element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
     </body>
 </html>
