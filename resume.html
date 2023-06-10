@@ -4,19 +4,17 @@
         <meta charset="utf-8" />
         <link rel="icon" href="./favicon.png" />
         <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page.3aef21a9.css" rel="stylesheet">
+        
+		<link href="./_app/immutable/assets/3.3aef21a9.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Navbar.865cc33e.css" rel="stylesheet">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/start.e8590aef.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/index.6894c2f8.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/singletons.946ca2b7.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/app.72673d61.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/preload-helper.41c905a7.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/layout.svelte.d4de6d00.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/_layout.ts.cc3ff41a.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/_layout.025914ab.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/entry/resume-page.svelte.cf0b2666.mjs">
-		<link rel="preload" as="script" crossorigin="anonymous" href="./_app/immutable/chunks/Navbar.a222c39b.mjs"><title>Résumé | Joshua
+		<link rel="modulepreload" href="./_app/immutable/entry/start.518a34c1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.1e6c574a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f25f18a9.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.1aa1c5eb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.67d905d0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.7cebb8e9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Navbar.4251124c.js"><title>Résumé | Joshua
         Gardner</title><!-- HEAD_svelte-j5t8du_START --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- HEAD_svelte-j5t8du_END -->
     </head>
     <body data-sveltekit-preload-data="hover">
@@ -35,19 +33,20 @@
 			
 			<script>
 				{
-					__sveltekit_1uvgyew = {
-						env: {},
-						assets: new URL(".", location.href).pathname.replace(/^\/$/, ''),
-						element: document.currentScript.parentElement
+					__sveltekit_12lgwpl = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
 					};
+
+					const element = document.currentScript.parentElement;
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.e8590aef.mjs"),
-						import("./_app/immutable/entry/app.72673d61.mjs")
+						import("./_app/immutable/entry/start.518a34c1.js"),
+						import("./_app/immutable/entry/app.1aa1c5eb.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1uvgyew.element, {
+						kit.start(app, element, {
 							node_ids: [0, 3],
 							data,
 							form: null,
