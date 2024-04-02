@@ -1,6 +1,9 @@
 <h1>EDPL Fixture Calendars</h1>
 <h2>Summer 2023/24</h2>
 <a href="/assets/edpl/3-3-2023.ics" download>Manhattan 4ths</a>
+<h2>Winter 2024</h2>
+<a href="/assets/edpl/3-6-2024.ics" download>Manhattan 3ths</a>
+<a href="/assets/edpl/4-6-2024.ics" download>Manhattan 4ths</a>
 
 <style lang="css">
     @font-face {
