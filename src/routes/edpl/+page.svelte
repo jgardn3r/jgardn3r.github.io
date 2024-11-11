@@ -5,6 +5,7 @@
 <a href="/assets/edpl/3-6-2024.ics" download>Manhattan 3ths</a>
 <a href="/assets/edpl/4-6-2024.ics" download>Manhattan 4ths</a>
 <h2>Summer 2024/25</h2>
+<a href="/assets/edpl/3-6-2024-Summer.ics" download>Manhattan 4ths</a>
 <a href="/assets/edpl/4-2-2024-Summer.ics" download>Manhattan 5ths</a>
 
 <style lang="css">
