@@ -9,6 +9,9 @@
 <a href="/assets/edpl/0-upper-2024-Summer.ics" download>Upper Manhattan 1sts</a>
 <a href="/assets/edpl/3-6-2024-Summer.ics" download>Manhattan 4ths</a>
 <a href="/assets/edpl/4-2-2024-Summer.ics" download>Manhattan 5ths</a>
+<h2>Winter 2025</h2>
+<a href="/assets/edpl/25-3rds-Manhattan.ics" download>Manhattan 3rds</a>
+<a href="/assets/edpl/25-4ths-Manhattan.ics" download>Manhattan 4ths</a>
 
 <style lang="css">
     @font-face {
