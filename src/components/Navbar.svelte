@@ -17,6 +17,10 @@
             path: 'resume',
         },
         {
+            name: 'Theatre',
+            path: 'theatre',
+        },
+        {
             name: 'Contact',
             path: 'mailto:joshgardner2000@gmail.com',
         },
