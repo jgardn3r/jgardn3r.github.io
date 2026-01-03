@@ -12,6 +12,8 @@
 <h2>Winter 2025</h2>
 <a href="/assets/edpl/25-3rds-Manhattan.ics" download>Manhattan 3rds</a>
 <a href="/assets/edpl/25-4ths-Manhattan.ics" download>Manhattan 4ths</a>
+<h2>Summer 2025/26</h2>
+<a href="/assets/edpl/25Sum-4ths-Manhattan.ics" download>Manhattan 4ths</a>
 
 <style lang="css">
     @font-face {
